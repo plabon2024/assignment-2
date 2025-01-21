@@ -29,6 +29,16 @@
 .displaynone{
   display: none;
 }
+.blackbtn{
+  max-width: 197px;
+  max-height: 50px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: rgba(17, 17, 17, 1);
+}
 
 /* nav */
 header{
@@ -43,6 +53,9 @@ header{
   gap: 11px;
   justify-content: center;
   align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(17, 17, 17, 1);
 }
 .navbanner img{
   width: 62px;
@@ -68,13 +81,13 @@ nav{
 .link1{
   color: rgba(254, 163, 1, 1);
 }
-.link{
+.link2{
 color:rgba(1, 172, 253, 1);
 }
-.link{
+.link3{
 color: rgba(5, 212, 223, 1);
 }
-.link{
+.link4{
 color: rgba(93, 88, 239, 1);
 }
 .navlink{
@@ -90,4 +103,46 @@ color: rgba(93, 88, 239, 1);
   border-radius: 12px;
   background-color:rgba(254, 163, 1, 1);
   color: #FFFFFF;
+}
+/* hero */
+.hero{
+  justify-content: center;
+  gap: 50px;
+  margin: 0 auto;
+}
+.herodescription{
+  max-width: 640px;
+  max-height: 331px;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: start;
+  margin: 122px 0;
+}
+.heroimg{
+  max-width: 468.61px;
+  max-height: 575px;
+
+}
+.heroimg{
+  width: 100%;
+  object-fit: contain;
+}
+.herodescription h1{
+  font-weight: bold;
+  font-size: 56px;
+}
+.heropara{
+  font-size: 20px;
+}
+
+.orange{
+  color:rgba(254, 163, 1, 1) ;
+  
+}
+.black{
+  color: rgba(17, 17, 17, 1);
+}
+.blue{
+  color:rgba(1, 172, 253, 1);
 }
