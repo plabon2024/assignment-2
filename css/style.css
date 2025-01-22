@@ -352,7 +352,7 @@ nav {
   border-radius: 16px;
   flex-direction: column;
   justify-content: center;
-  background-color: #FFFFFF;
+  
 
 }
 
@@ -395,6 +395,9 @@ nav {
   margin: 0 auto;
   padding: 0 38.35px;
   gap: 40px;
+  background-color: #FFFFFF;
+  border-radius: 0 0 16px 16px;
+  padding-bottom: 10px;
 }
 
 .stories-card2 {
@@ -411,8 +414,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 16px;
-  background-color: rgba(255, 255, 255, 1);
+  
+  
 }
 
 .stories-card img {
@@ -424,6 +427,9 @@ nav {
   padding: 0 38px;
   font-weight: bold;
   font-size: 15.34px;
+  background-color: #FFFFFF;
+  border-radius: 0 0 16px 16px;
+  padding-bottom: 10px;
 
 }
 
